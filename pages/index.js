@@ -13,7 +13,7 @@ export default function Home() {
 
       <main>
         <h1>
-          Welcome to Next.js!
+          Welcome to Next.js! HTML
         </h1>
       </main>
       {/* <ContactForm /> */}
