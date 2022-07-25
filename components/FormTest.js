@@ -6,9 +6,9 @@ const NetlifyFormTastic = () => {
             <h1>Netlify Form Testing</h1>
 
 
-            <form name="contact2" data-netlify="true" netlify-honeypot="bot-field" method="POST" action="/success">
+            <form name="formtest" data-netlify="true" netlify-honeypot="bot-field" method="POST" action="/success">
 
-                <input type="hidden" name="form-name" value="contact2"/>
+                <input type="hidden" name="form-name" value="formtest"/>
                 
                 <p>
                     <label htmlFor="name">Name</label><br />

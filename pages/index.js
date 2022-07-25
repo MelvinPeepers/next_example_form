@@ -1,5 +1,4 @@
 import Head from 'next/head'
-// import ContactForm from '../components/ContactForm'
 import FormTest from '../components/FormTest'
 
 export default function Home() {
@@ -16,7 +15,6 @@ export default function Home() {
           Welcome to Next.js! HTML
         </h1>
       </main>
-      {/* <ContactForm /> */}
       <FormTest />
     </div>
   )
