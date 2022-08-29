@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import ContactForm from '../components/ContactForm'
+import FormTest from '../components/FormTest'
 
 export default function Home() {
   return (
@@ -12,10 +12,10 @@ export default function Home() {
 
       <main>
         <h1>
-          Welcome to Next.js!
+          Welcome to Next.js! HTML
         </h1>
       </main>
-      <ContactForm />
+      <FormTest />
     </div>
   )
 }
