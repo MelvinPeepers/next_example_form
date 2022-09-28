@@ -3,10 +3,7 @@ import React from 'react'
 const NetlifyFormTastic = () => {
     return (
         <div>
-            <h1>Netlify Form Testing</h1>
-
-
-//             <form name="Contact General" data-netlify="true" netlify-honeypot="bot-field" method="POST" action="/success">
+            <h1>Netlify Form Testing</h1>            
             <form method="POST" target="_self" id="Contact_General" name="Contact_General" data-netlify="true" netlify-honeypot="bot-field" action="/success> 
 
                 <input type="hidden" name="form-name" value="formtest"/>
